@@ -1,0 +1,68 @@
+/*
+
+	INSTRUCTIONS ---------------------------------------------------------------------------------
+  
+  1. link this stylesheet in the head of your HTML
+  	 <link href="YOUR PATH/aca.css" rel="stylesheet" type="text/css" />
+     
+  2. Set the file name as data-theme attribute on your input
+  	 <input data-theme="aca" />
+     
+  3. That's it!
+  
+  When you run script the style will be automatically applied.
+
+*/
+div.datedropper.aca {
+  border-radius: 15px;
+  width: 166px;
+}
+div.datedropper.aca .picker {
+  border-radius: 15px;
+  box-shadow: 0 0 31px 0px rgba(0, 0, 0, 0.52);
+}
+div.datedropper.aca .pick-l {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+div.datedropper.aca:before,
+div.datedropper.aca .pick-submit,
+div.datedropper.aca .pick-lg-b .pick-sl:before,
+div.datedropper.aca .pick-m,
+div.datedropper.aca .pick-lg-h {
+  background-color: #31b0d5;
+}
+div.datedropper.aca .pick-y.pick-jump,
+div.datedropper.aca .pick li span,
+div.datedropper.aca .pick-lg-b .pick-wke,
+div.datedropper.aca .pick-btn {
+  color: #31b0d5;
+}
+div.datedropper.aca .picker,
+div.datedropper.aca .pick-l {
+  background-color: #FFF;
+}
+div.datedropper.aca .picker,
+div.datedropper.aca .pick-arw,
+div.datedropper.aca .pick-l {
+  color: #31b0d5;
+}
+div.datedropper.aca .pick-m,
+div.datedropper.aca .pick-m .pick-arw,
+div.datedropper.aca .pick-lg-h,
+div.datedropper.aca .pick-lg-b .pick-sl,
+div.datedropper.aca .pick-submit {
+  color: #fff;
+}
+div.datedropper.aca.picker-tiny:before,
+div.datedropper.aca.picker-tiny .pick-m {
+  background-color: #FFF;
+}
+div.datedropper.aca.picker-tiny .pick-m,
+div.datedropper.aca.picker-tiny .pick-m .pick-arw {
+  color: #31b0d5;
+}
+div.datedropper.aca.picker-lkd .pick-submit {
+  background-color: #FFF;
+  color: #31b0d5;
+}

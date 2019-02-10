@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+section.sec1 {
+    background: url(../gallery/phuket.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+section.sec2 {
+    background: url(../gallery/phuket2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+section.sec3 {
+    background: url(../gallery/phuket3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+section.sec4 {
+    background: url(../gallery/phuket4.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+section.sec5 {
+    background: url(../gallery/phuket-beach.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+section.secText {
+    padding: 50px 100px; 
+    height: auto;
+}
+section.secText h1 {
+    margin: 0;
+    padding: 0;
+    padding-bottom:20px; 
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+}
+section.secText h3 {
+    margin: 0;
+    padding-bottom:20px; 
+    font-size: 28px;
+    color: #2fe4e4;
+    text-align: center;
+}
+section.secText p {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.whi{
+    color: #fff;
+}
+
+.paddingtop {
+    padding-top: 20%;
+}
+
+.paddingtop p {
+    font-size: 20px;
+}
+.paddingtopp {
+   padding-top: 20%; 
+}
+.paddingtopp p{
+    font-size: 20px; 
+}
+.padtw p{
+    font-size: 20px;
+}
+.boja {
+    color: #4efef7;
+}
+.jljp {
+    font-size: 36px;
+}
+
+.ppp p {
+    font-size: 20px;
+}
+.whitte{
+    color: white;
+}
+@media all and (max-width: 605px){
+
+    .paddingtopp p{
+        font-size: 16px; 
+    }
+    .padtw p{
+        font-size: 16px;
+    }
+    .ppp p {
+        font-size: 16px;
+    }
+}
